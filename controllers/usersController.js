@@ -20,6 +20,7 @@ module.exports = {
                 var testUsr = postJson(request.body, JSON.parse,  function(e) {
                     if (error) throw error;
                 });
+                if (testUsr) exports.testUsr = testUsr;
                 next();
             }catch(e){
                 next(e);
