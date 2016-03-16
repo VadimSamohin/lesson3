@@ -14,6 +14,10 @@
     "type": "git",
     "url": "git+https://github.com/VadimSamohin/lesson3.git"
   },
+  "keywords": [
+    "node",
+    "javascript"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {

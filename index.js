@@ -8,7 +8,6 @@ function requestHandler(request, response) {
 
     var parsedUrl = url.parse(request.url, true),
         methodType = request.method.toLowerCase();
-    return parsedUrl, methodType;
 
 
 
@@ -34,4 +33,4 @@ if(routes[methodType][parsedUrl.pathname]){
 var server  = http.createServer(requestHandler);
 
 
-server.listen(3000);
+server.listen(3001);
